@@ -5,7 +5,10 @@ background-color: #74b650;
 }
 
 .title {
-font-size: 25px;  
+font-size: 25px;
+text-decoration: none;  
+color: #000;
+font-weight: bold;
 }
 
 h1.title {
