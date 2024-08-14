@@ -20,6 +20,13 @@ color: #000;
 font-weight: 600;
 }
 
+.recipe-name:hover {
+    font-size: 21px;
+    color: #74b650;
+    background-color: #000;
+    transition: 200ms;
+}
+
 .description {
 font-size: 14px;
 }
