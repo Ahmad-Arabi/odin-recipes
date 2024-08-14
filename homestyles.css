@@ -23,3 +23,26 @@ font-weight: 600;
 .description {
 font-size: 14px;
 }
+
+button {
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+    width: 180px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #4c7734;
+    color: #000000;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #4c7734;
+    transition: 200ms;
+}
+
+a {
+    text-decoration: none;
+}
