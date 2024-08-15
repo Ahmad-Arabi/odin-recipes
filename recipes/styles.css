@@ -1,41 +1,138 @@
 * {
-font-family: Arial, Helvetica, sans-serif;
-background-color: #74b650;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #74b650;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
-font-size: 25px;
-text-decoration: none;  
-color: #000;
-font-weight: bold;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;  
+    color: #000;
+    font-weight: bold;
+    width: 170px;
+    height: 70px;
+    margin: -8px auto;
+    margin-bottom: -20px;
+    border: 0cap solid red;
+    text-align: center;
 }
 
-h1.title {
-font-size: 35px;  
+.title:hover {
+    font-size: 28px;
+    width: 190px;
+    transition: 200ms;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    border: 0px solid red;
+    width: 60px;
+    height: 60px;
+    margin: 4px auto;
+}
+
+.recipe-name {
+    font-size: 35px;
+    color: #000;
+    width: 800px;
+    height: 70px;
+    margin: -8px auto;
+    margin-bottom: -20px;
+    border: 0px solid red;  
+    text-align: center;
+}
+
+#image {
+    display: block;
+    border: 0px solid red;
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    object-fit: cover;
 }
 
 .sub-title {
-font-size: 25px;
-text-decoration: underline;
-font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    border: 0px solid red;  
 }
 
-.description {
-font-size: 16px;
-font-weight: 520;
+p.description {
+    font-size: 16px;
+    width: 720px;
+    text-align: center;
+    margin: 5px auto;
+    border: 0px solid red;  
+
 }
 
-.description a,
-.button a {
-text-decoration: none;
+del {
+    color: rgba(255, 0, 0, 0.584);
 }
 
-.button,
-.button a {
-background-color: rgb(0, 0, 0);
-color: #74b650;
-text-align: center;
-font-weight: bold;
-font-size: 20px;
+ul.list {
+    text-align: left;
+    margin: 0 auto;
+    width: 400px;
+    border: 0px solid black;  
+}
+
+li {
+    margin: 5px auto;
+}
+
+ol li {
+    padding-top: 3px;
+}
+
+ol.list {
+    text-align: left;
+    margin: 0 auto;
+    width: 700px;
+    border: 0px solid black; 
+    margin-bottom: 40px;
+}
+
+button {
+    display: block;
+    height: 50px;
+    width: 280px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4c7734;
+    color: #000000;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #4c7734;
+    transition: 200ms;
+}
+
+.FAQs {
+    font-size: 18px;
+    text-decoration: none;
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    border: 0px solid red; 
+
+}
+
+label {
+    font-weight: bold;
 }
