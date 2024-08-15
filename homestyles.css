@@ -1,23 +1,47 @@
 * {
-font-family: Arial, Helvetica, sans-serif;
-background-color: #74b650;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #74b650;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #image {
-height: auto;
-width: 500px;
+    display: block;
+    border: 0px solid red;
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.logo {
+    display: block;
+    border: 0px solid red;
+    width: 60px;
+    height: 60px;
+    margin: 4px auto;
 }
 
 .title {
-font-size: 40px;  
+    font-size: 40px;
+    width: 260px;
+    height: 70px;
+    margin: -8px auto;
+    margin-bottom: -20px;
+    border: 0px solid red;  
 }
 
 .recipe-name {
-font-size: 18px;
-text-decoration: none;
-color: #000;
-font-weight: 600;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    width: 320px;
+    margin: 0px auto;
+    border: 0px solid red; 
+    text-align: center;
 }
 
 .recipe-name:hover {
@@ -25,10 +49,19 @@ font-weight: 600;
     color: #74b650;
     background-color: #000;
     transition: 200ms;
+    margin: 0px auto;
+
 }
 
 .description {
 font-size: 14px;
+font-weight: lighter;
+width: 600px;
+margin: 0px auto;
+padding-top: 5px;
+padding-bottom: 15px;
+border: 0px solid red; 
+text-align: center;
 }
 
 button {
