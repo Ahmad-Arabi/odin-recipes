@@ -32,6 +32,11 @@
     border: 0px solid red;  
 }
 
+.title.ar {
+    border: 0px solid red;
+    width: 185px;
+}
+
 .recipe-name {
     display: block;
     font-size: 18px;
@@ -54,14 +59,19 @@
 }
 
 .description {
-font-size: 14px;
-font-weight: lighter;
-width: 600px;
-margin: 0px auto;
-padding-top: 5px;
-padding-bottom: 15px;
-border: 0px solid red; 
-text-align: center;
+    
+    font-size: 14px;
+    font-weight: lighter;
+    width: 600px;
+    margin: 0px auto;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border: 0px solid red; 
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
 }
 
 button {
