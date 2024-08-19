@@ -30,50 +30,18 @@
     width: 500px;
     margin: 0 auto;
     object-fit: cover;
-   
-
 }
 
-.en {
-    border: 0px solid red;
-    font-size: 25px;
-    width: 235px;
-    margin: 0 auto;
+.prompt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.prompt div {
+    flex: 1;
     text-align: center;
+    font-size: 22px;
 }
-
-.ar {
-    border: 0px solid red;
-    font-size: 25px;
-    width: 235px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*.en-button {
-    display: block;
-    height: 50px;
-    width: 200px;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: #4c7734;
-    color: #000000;
-    margin: auto;
-}
-
-.ar-button {
-    display: block;
-    height: 50px;
-    width: 200px;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: #4c7734;
-    color: #000000;
-    margin: auto;
-} */
 
 .selector {
     display: flex;
