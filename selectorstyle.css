@@ -34,18 +34,26 @@
 
 .prompt {
     display: flex;
-    justify-content: flex-end;
+    width: 400px;
+    outline: 0px solid red ;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .prompt div {
-    flex: 1;
-    text-align: center;
     font-size: 22px;
+    text-align: center;
+}
+
+.prompt .en {
+    font-size: 20px;
 }
 
 .selector {
     display: flex;
-    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .selector button {
@@ -54,7 +62,6 @@
     height: 50px;
     font-size: 18px;
     text-align: center;
-    margin: 0 10px;
     background-color: #4c7734;
 }
 
